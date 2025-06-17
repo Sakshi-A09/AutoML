@@ -1,3 +1,6 @@
 h2o
+seaborn
+matplotlib
+scipy
 shap
 statsmodels
