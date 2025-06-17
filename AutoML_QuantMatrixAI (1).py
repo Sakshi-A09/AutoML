@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-%%writefile app.py
+#%%writefile app.py
 import streamlit as st
 import h2o
 import pandas as pd
@@ -328,4 +328,4 @@ if uploaded_file:
             ax.set_title(f"Actual vs Predicted for {model_id}")
             ax.legend()
             st.pyplot(fig)
-!streamlit run app.py
+#!streamlit run app.py
